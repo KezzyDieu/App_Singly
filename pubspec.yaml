@@ -1,0 +1,53 @@
+name: proyecto_mongo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  faker: ^2.2.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.1
+  url_launcher: ^6.0.10
+  carousel_slider: ^4.0.0
+  image_picker: ^1.0.7
+  path_provider: ^2.0.15
+  flutter_card_swiper: ^4.0.0
+  share_plus: ^7.0.0
+  screenshot: ^3.0.0
+  webview_flutter: ^4.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  image_path: "assets/icon.png"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/sofcay_image.jpg
+    - assets/images/frases.jpg
+    - assets/images/letras.jpg
+    - assets/images/video.png
+    - assets/images/pagina.png
+    - assets/images/letras/
+    - assets/images/login_background.png
+    - assets/images/home_illustration.png
+    - assets/images/fondoresults.jpg
+
+  fonts:
+    - family: Fleischmann
+      fonts:
+        - asset: assets/fonts/Fleischmann_regular_PC.ttf
